@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project: Team Unlock</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <main class="container">
+    <span class="badge">CLASSIFIED MISSION</span>
+
+    <h1>🔐 Project: Team Unlock</h1>
+
+    <p>Welcome, developers! Your team assignments have been locked by the system.</p>
+    <p>To discover your teammates, you must first answer one extremely important question.</p>
+
+    <div class="question">
+      🏆 Who is the best facilitator?
+    </div>
+
+    <form id="unlockForm">
+      <input
+        id="answer"
+        type="text"
+        placeholder="Enter your answer..."
+        autocomplete="off"
+        aria-label="Your answer"
+        required
+      >
+      <button type="submit">🔓 Unlock My Teams</button>
+    </form>
+
+    <p id="feedback" aria-live="polite"></p>
+
+    <section id="teams" hidden>
+      <h2 class="success">🎉 ACCESS GRANTED!</h2>
+
+      <p>
+        Excellent work! Your knowledge of facilitation
+        has been officially recognised. 😂
+      </p>
+
+      <h2>🚀 Your teams have been revealed!</h2>
+
+      <div class="team">
+        <h3>🔥 TEAM 1</h3>
+        <div class="members">
+          👤 Qasim
+          👤 Charles
+          👤 Corrine
+          👤 Kieron
+        </div>
+      </div>
+
+      <div class="team">
+        <h3>⚡ TEAM 2</h3>
+        <div class="members">
+          👤 Marcel
+          👤 Rauhan
+          👤 Mohammed
+          👤 Davy
+        </div>
+      </div>
+
+      <div class="team">
+        <h3>🧠 TEAM 3</h3>
+        <div class="members">
+          👤 Sarah
+          👤 Shruti
+          👤 Molly
+        </div>
+      </div>
+
+      <div class="team">
+        <h3>💻 TEAM 4</h3>
+        <div class="members">
+          👤 Amir
+          👤 Malcolm
+          👤 Minh La
+          👤 Yasum
+        </div>
+      </div>
+
+      <p>
+        🎯 Your first mission: find your teammates on Discord and create separate chat!
+      </p>
+
+      <p>
+        <strong>May your code compile and your bugs be few.</strong> 🫡
+      </p>
+    </section>
+
+    <div class="footer">
+      TEAM ASSIGNMENTS // TOP SECRET // AUTHORISED PERSONNEL ONLY
+    </div>
+  </main>
+</body>
+</html>
